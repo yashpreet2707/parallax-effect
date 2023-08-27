@@ -1,3 +1,4 @@
+
 * {
     margin: 0 ;
     padding: 0 ;
@@ -9,6 +10,31 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: beige ;
-    font-size: 48px ;
 }
+
+div h2 {
+    background-color: rgb(128, 128, 128, 0.5) ;
+    padding: 10px 20px ;
+    font-size: 40px ;
+    border-radius: 5px ;
+    font-weight: bold ;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+/* div:nth-child(1) {
+    background-image: url(https://images.unsplash.com/photo-1489379391348-c9f07b42b696?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover ;
+
+}
+div:nth-child(2) {
+    background: rgb(9, 68, 9) ;
+}
+div:nth-child(3) {
+    height: 400px ;
+    background-image: url(https://images.unsplash.com/photo-1484387281950-dd1de7b0df73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80) ;
+    background-attachment: fixed ;
+    background-size: cover ;
+}
+div:nth-child(4) {
+    background: rgb(24, 82, 101) ;
+} */
